@@ -236,6 +236,20 @@ a, button { cursor: pointer; }
 .entry-form .field { margin-bottom: 0; }
 .entry-form .btn-primary { width: auto; padding: 10px 20px; white-space: nowrap; }
 
+/* ---------- Chart ---------- */
+.chart-panel {
+  background: var(--paper-raised);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 24px;
+  margin-bottom: 32px;
+}
+
+.chart-wrap {
+  position: relative;
+  height: 260px;
+}
+
 /* ---------- Ledger table ---------- */
 .ledger-panel {
   background: var(--paper-raised);
